@@ -1,0 +1,67 @@
+# Ignore build output directories
+bin/
+obj/
+TestResults/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Visual Studio specific
+.vscode/
+.vs/
+
+# Rider IDE specific
+.idea/
+*.sln.iml
+
+# Backup and log files
+*.log
+*.bak
+*.swp
+*.tmp
+*.temp
+
+# Compiled binaries
+*.dll
+*.exe
+*.pdb
+
+# Packages and dependencies
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+.nuget/
+
+# Build directories
+Build/
+artifacts/
+_DotNetTool/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test output
+*.coverage
+*.coveragexml
+*.testlog
+
+# Publish output
+publish/
+wwwroot/
+
+# Configuration files
+appsettings.json
+appsettings.Development.json
+
+# Optional: Ignore secrets file (if applicable)
+secrets.json
